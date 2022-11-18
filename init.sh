@@ -44,7 +44,7 @@ apt-get update
 echo '******************************'
 echo 'sudo dpkg -i ooRexx-5.0.0-12528.ubuntu1604.x86_64.deb'
 echo '******************************'
-dpkg -i ooRexx-5.0.0-12528.ubuntu1604.x86_64.deb
+# dpkg -i ooRexx-5.0.0-12528.ubuntu1604.x86_64.deb
 
 echo '******************************'
 echo 'npm install -g node-gyp'
@@ -90,7 +90,7 @@ zowe plugins install @broadcom/ops-for-zowe-cli@zowe-v2-lts
 zowe plugins install @broadcom/sysview-for-zowe-cli@zowe-v2-lts
 zowe plugins install @broadcom/caview-for-zowe-cli@zowe-v2-lts
 
-zowe plugins install microfocus-zmf-cli-plugin-2.0.2.tgz
+# zowe plugins install microfocus-zmf-cli-plugin-2.0.2.tgz
 
 code --install-extension broadcomMFD.code4z-extension-pack --force
 code --install-extension broadcomMFD.lsp-for-rexx --force
