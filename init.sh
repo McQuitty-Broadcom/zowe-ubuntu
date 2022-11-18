@@ -79,16 +79,16 @@ npm install -g @zowe/cli@zowe-v2-lts
 zowe plugins install @zowe/cics-for-zowe-cli@zowe-v2-lts @zowe/db2-for-zowe-cli@zowe-v2-lts @zowe/ims-for-zowe-cli@zowe-v2-lts @zowe/mq-for-zowe-cli@zowe-v2-lts @zowe/zos-ftp-for-zowe-cli@zowe-v2-lts
 zowe plugins install @zowe/secure-credential-store-for-zowe-cli
 
-zowe plugins install @broadcom/ca7-for-zowe-cli@zowe-v2-lts
-zowe plugins install @broadcom/endevor-for-zowe-cli@zowe-v2-lts
-zowe plugins install @broadcom/endevor-bridge-for-git-for-zowe-cli@zowe-v2-lts
-zowe plugins install @broadcom/file-master-plus-for-zowe-cli@zowe-v2-lts
-zowe plugins install @broadcom/mat-analyze-for-zowe-cli@zowe-v2-lts
-zowe plugins install @broadcom/mat-detect-for-zowe-cli@zowe-v2-lts
-zowe plugins install @broadcom/ops-for-zowe-cli@zowe-v2-lts
-#zowe plugins install @broadcom/om-spool-for-zowe-cli@zowe-v2-lts
-zowe plugins install @broadcom/sysview-for-zowe-cli@zowe-v2-lts
-zowe plugins install @broadcom/caview-for-zowe-cli@zowe-v2-lts
+# zowe plugins install @broadcom/ca7-for-zowe-cli@zowe-v2-lts
+# zowe plugins install @broadcom/endevor-for-zowe-cli@zowe-v2-lts
+# owe plugins install @broadcom/endevor-bridge-for-git-for-zowe-cli@zowe-v2-lts
+# zowe plugins install @broadcom/file-master-plus-for-zowe-cli@zowe-v2-lts
+# zowe plugins install @broadcom/mat-analyze-for-zowe-cli@zowe-v2-lts
+# zowe plugins install @broadcom/mat-detect-for-zowe-cli@zowe-v2-lts
+# zowe plugins install @broadcom/ops-for-zowe-cli@zowe-v2-lts
+# #zowe plugins install @broadcom/om-spool-for-zowe-cli@zowe-v2-lts
+# zowe plugins install @broadcom/sysview-for-zowe-cli@zowe-v2-lts
+# zowe plugins install @broadcom/caview-for-zowe-cli@zowe-v2-lts
 
 # zowe plugins install microfocus-zmf-cli-plugin-2.0.2.tgz
 
@@ -97,8 +97,8 @@ zowe plugins install @broadcom/caview-for-zowe-cli@zowe-v2-lts
 # code --install-extension broadcomMFD.data-editor-for-mainframe --force
 # code --install-extension broadcomMFD.bridge-for-git-explorer --force
 
-curl -sSL https://raw.githubusercontent.com/McQuitty-Broadcom/zowe-ubuntu/v2/zowe_configs/sr01/zowe.config.json
-curl -sSL https://raw.githubusercontent.com/McQuitty-Broadcom/zowe-ubuntu/v2/zowe_configs/sr01/zowe.schema.json
+curl -sSL https://raw.githubusercontent.com/McQuitty-Broadcom/zowe-ubuntu/v2/zowe_configs/sr01/zowe.config.json > /root/zowe.config.json
+curl -sSL https://raw.githubusercontent.com/McQuitty-Broadcom/zowe-ubuntu/v2/zowe_configs/sr01/zowe.schema.json > /root/zowe.schema.json
 
 cp ./zowe_configs/sr01/zowe.schema.json /root/.zowe/
 echo 'to use zowe, reboot and issue zowe config secure --gc'
