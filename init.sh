@@ -98,7 +98,7 @@ zowe plugins install @zowe/secure-credential-store-for-zowe-cli
 # code --install-extension broadcomMFD.bridge-for-git-explorer --force
 
 wget https://raw.githubusercontent.com/McQuitty-Broadcom/zowe-ubuntu/v2/zowe_configs/sr01/zowe.config.json 
-wget -sSL https://raw.githubusercontent.com/McQuitty-Broadcom/zowe-ubuntu/v2/zowe_configs/sr01/zowe.schema.json 
+wget https://raw.githubusercontent.com/McQuitty-Broadcom/zowe-ubuntu/v2/zowe_configs/sr01/zowe.schema.json 
 
 # cp ./zowe_configs/sr01/zowe.schema.json /root/.zowe/
 echo 'to use zowe, reboot and issue zowe config secure --gc'
