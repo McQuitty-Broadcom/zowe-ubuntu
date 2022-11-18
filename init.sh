@@ -76,7 +76,7 @@ echo 'fi' >> /root/.bashrc
 echo 'gnome-keyring-daemon --start --components=secrets' >> /root/.bashrc
 
 npm install -g @zowe/cli@zowe-v2-lts
-zowe plugins install @zowe/cics-for-zowe-cli@zowe-v2-lts @zowe/db2-for-zowe-cli@zowe-v2-lts @zowe/ims-for-zowe-cli@zowe-v2-lts @zowe/mq-for-zowe-cli@zowe-v2-lts @zowe/zos-ftp-for-zowe-cli@zowe-v2-lts
+# zowe plugins install @zowe/cics-for-zowe-cli@zowe-v2-lts @zowe/db2-for-zowe-cli@zowe-v2-lts @zowe/ims-for-zowe-cli@zowe-v2-lts @zowe/mq-for-zowe-cli@zowe-v2-lts @zowe/zos-ftp-for-zowe-cli@zowe-v2-lts
 zowe plugins install @zowe/secure-credential-store-for-zowe-cli
 
 # zowe plugins install @broadcom/ca7-for-zowe-cli@zowe-v2-lts
