@@ -30,7 +30,9 @@ echo '******************************'
 echo '******************************'
 echo 'sudo gnome-keyring-daemon --unlock --components=secrets'
 echo '******************************'
-gnome-keyring-daemon --unlock --components=secrets  
+gnome-keyring-daemon --unlock --components=secrets  <<EOF
+asddsa
+EOF
 echo '******************************'
 echo 'sudo apt-get install -y libpam-gnome-keyring'
 echo '******************************'
